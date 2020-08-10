@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height">
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+
+        <ImageView
+            android:id="@+id/imageOf"
+            android:layout_width="match_parent"
+            android:layout_height="240dp" />
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/imageOf"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:paddingLeft="30dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:text="Barbeque" />
+
+        <TextView
+            android:id="@+id/historical_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/name_text_view"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:paddingLeft="30dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:text="Gol Ghar" />
+        <TextView
+            android:id="@+id/hotel_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/historical_text_view"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:paddingLeft="30dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:text="Maurya" />
+
+        <TextView
+            android:id="@+id/place_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/hotel_text_view"
+            android:paddingLeft="30dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"
+            tools:text="Patna" />
+        <TextView
+            android:id="@+id/basePrice"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/place_text_view"
+            android:paddingLeft="30dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"
+            tools:text="Birthday Party" />
+        <TextView
+            android:id="@+id/eventTextView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/basePrice"
+            android:paddingLeft="30dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"
+            tools:text="3K INR" />
+        <TextView
+            android:id="@+id/builtTextView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/eventTextView"
+            android:paddingLeft="30dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"
+            tools:text="1968" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
